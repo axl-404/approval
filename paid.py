@@ -18,36 +18,6 @@ try:
 except ImportError:
     print(f'\x1b[38;5;46m[\x1b[1;97m✓\x1b[38;5;46m] INSTALLING FUTURES ')
     os.system('pip install futures')
-#__________________| SECURITY |__________________#
-wak='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
-fu='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(fu+'models.py','r').read():
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
-su='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(su+'utils.py','r').read():
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
-hu='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(hu+'api.py','r').read():
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
-nu='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(nu+'auth.py','r').read():
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
-dhon='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(dhon+'packages.py','r').read():
-    pass
-else:
-    exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
 #__________________| APPROVAL |__________________#
 try:
     import mechanize
