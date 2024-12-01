@@ -108,6 +108,16 @@ def mozilla():
 	fbpn = random.choice(["com.facebook.katana","com.facebook.orca","messenger-android", "com.facebook.lite"])
 	fbbv = str(random.randint(10000000, 99999999))
 	fbrv = str(random.randint(10000000, 99999999));]"
+	facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
+	fban = random.choice(["FB4A", "FB5A", "FB6A"])
+	model = random.choice(["SM-G780G","SM-O497J","SM-L427V","SM-C297Z","SM-G507X","SM-Y634L","SM-J204F","SM-R911A","SM-X801O","SM-A792E","SM-H270F","SM-P993J","SM-V233F","SM-O861W","SM-D182C","SM-Y729G","SM-Z367Q","SM-U191O","SM-U559U","SM-B567Y","SM-O846M","SM-G342Z","SM-K531M","SM-I847H","SM-A728M","SM-L637H","SM-L429N","SM-P413J","SM-N731T","SM-R505B","SM-A744X","SM-O400L","SM-F799H","SM-Z679E"])
+	ua = 'Mozilla/5.0 (Linux;'+android_version+'; '+model+' Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.136 Mobile Safari/537.36 [FB_IAB/'+fban+';FBAV/'+facebook_version+';FBBV/'+fbbv+';FBDM/{density=3.0,width=1080,height=1920};FBLC/'+fblc+';FBRV/'+fbrv+';FBCR/'+fbcr+';FBMF/asus;FBBD/asus;FBPN/'+fbpn+';FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]'
+	return ua
+#-----------------------[ RANDOM-UA-CODE ]-----------------------#
+def pal():
+ rr = random.randint
+ rc = random.choice
+ uay = f"Mozilla/5.0 (Windows NT {str(rr(1,20))}.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(40,150))}.0.{str(rr(2000,4999))}.{str(rr(50,200))} Safari/537.36 Maxthon/5.1.5.20"
  return uay
 def randomck():
 	vivo = random.choice(["U3", "1002T", "C", "1605", "730", "A5", "A54", "a57", "A87","C8818", "EGO", "E1", "E3", "E5", "X21", "X21i", "X2s", "X23","iQOO", "X5Max5", "X5V", "X60t", "X6S", "X7", "X70", "Xplay", "Xshot","Y01", "Y01A", "Y02", "Y02s", "V1", "V11", "V11s", "Y13T", "Nex","S1", "S10", "S11", "S11t", "S12", "S13", "S15", "S15e", "S1PRO","S20", "S21", "S31", "S5", "S6", "S6T", "S7", "S76", "S7e", "S7t", "S7w", "S9", "S9e", "T1", "T1x", "T2", "T2x", "E1","U10","U20","X20", "X1w", "23x", "V77e", "Y613F", "Y628", "X3S","Z1", "Z10", "Z1i", "Z1LITE", "Z1PRO", "Z1x", "Z34"])
