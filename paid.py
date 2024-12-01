@@ -20,7 +20,6 @@ except ImportError:
     os.system('pip install futures')
 #__________________| SECURITY |__________________#
 wak='/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/'
-if not 'print' in open(wak+'sessions.py','r').read():
     pass
 else:
     exit(f'\x1b[38;5;244m(\x1b[1;97m✘\x1b[38;5;244m)\x1b[38;5;46m Bēśyāra chēlē mēthaḍa kyāpacāra karabā tumi tōmāra mārē kuttā diẏē cōdai')
