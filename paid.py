@@ -107,7 +107,7 @@ def mozilla():
 	android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
 	fbpn = random.choice(["com.facebook.katana","com.facebook.orca","messenger-android", "com.facebook.lite"])
 	fbbv = str(random.randint(10000000, 99999999))
-	fbrv = str(random.randint(10000000, 99999999));]"
+	fbrv = str(random.randint(10000000, 99999999));"
 	facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
 	fban = random.choice(["FB4A", "FB5A", "FB6A"])
 	model = random.choice(["SM-G780G","SM-O497J","SM-L427V","SM-C297Z","SM-G507X","SM-Y634L","SM-J204F","SM-R911A","SM-X801O","SM-A792E","SM-H270F","SM-P993J","SM-V233F","SM-O861W","SM-D182C","SM-Y729G","SM-Z367Q","SM-U191O","SM-U559U","SM-B567Y","SM-O846M","SM-G342Z","SM-K531M","SM-I847H","SM-A728M","SM-L637H","SM-L429N","SM-P413J","SM-N731T","SM-R505B","SM-A744X","SM-O400L","SM-F799H","SM-Z679E"])
