@@ -151,7 +151,7 @@ def bot_share():
 
 def meyexudi():
   os.system('clear')
-  print()
+  print
   uuid = "KPL("+str(os.getuid())+"(KILLER)"+str(os.getuid())+")AXN"
   id = '-'.join(uuid)
   try:
