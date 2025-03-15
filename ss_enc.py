@@ -149,35 +149,31 @@ def bot_share():
 	except requests.exceptions.ConnectionError:
 		print(f"\n{P}(!)  YOU ARE NOT CONNECTED TO THE INTERNET!!!");exit()
 
-def shoha_menu():
-    B4="Seven-"
-    uuid = str(os.geteuid()) + str(os.getlogin()) 
-    id = "5".join(uuid)
-    print(logo)
-    DARK=requests.get("https://github.com/axl-404/approval/blob/main/approval.txt").text
-    if id in DARK:
-        SEVEN()
+def meyexudi():
+  os.system('clear')
+  print(logo)
+  uuid = "KPL("+str(os.getuid())+"(KILLER)"+str(os.getuid())+")AXN"
+  id = '-'.join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/Asif950/Aprooval/blob/main/Aprooval.txt').text
+    if id in httpCaht:
+      print(fuckyoursali)
+      print(hedaborakarent)
+      msg = str(os.geteuid())
+      #time.sleep(0.5)
+      print()
+      pass
     else:
-        os.system("clear")
-        os.system("xdg-open https://www.facebook.com/61570891863261")
-        time.sleep(3.0)
-        
-        os.system("clear")
-        print(logo)
-        print("\t\033[30m   [\033[1;32m\033[47m FIRST GET APPROVAL\033[00m\033[1;30m]")
-        print ("")
-        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ NOTE : THAT IS PAID BECAUSE 100% OK ID JUST NOW LOGIN│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
-        print ("")
-        print("                YOUR KEY IS NOT APPROVED ")
-        print("               COPY AND SEND KEY TO ADMIN")
-        print ("")
-        print (" YOUR KEY : "+B4+id)
-        print ("\n")
-        name = input(" YOUR NAME : ")
-        print ("")
-        input(" PRESS ENTER TO SEND KEY")
-        os.system("xdg-open https://www.facebook.com/61570891863261")
-shoha_menu()
+      print(meyermarexudi)
+     # print(" \033[32;1m[+] Your Key : "+id))
+      print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
+      input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://m.me/100000739035643?text='+tks),approval()      
+      time.sleep(1)
+      meyexudi()
+  except:
+    sys.exit()
+meyexudi()    
 
 
 
